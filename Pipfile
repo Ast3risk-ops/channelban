@@ -3,11 +3,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[requires]
+python_version = "2.7"
+
 [packages]
-pycord = "*"
-ezcord = "*"
+discord.py = "==0.16.12"
 python-dotenv = "*"
-py-cord = "*"
+requests = "*"
 
 [dev-packages]
 
