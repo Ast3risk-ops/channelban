@@ -1,0 +1,14 @@
+{
+  "name": "discord-ban-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.9"
+  }
+}
