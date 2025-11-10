@@ -9,7 +9,7 @@ In guilds it requires the `bot` scope, `Guild Install`, and the following permis
 Sample invite link: 
 
 ```
-https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=1099511694340&integration_type=0&scope=bot
+https://discord.com/oauth2/authorize?client_id=<YOUR_CLIENT_ID>&permissions=1099511694340&integration_type=0&scope=bot
 ```
 
 To run:
