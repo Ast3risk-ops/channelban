@@ -4,7 +4,7 @@ This bot watches a channel and bans users if they post in it (with configurable 
 
 This bot requires the **Server Members** and **Message Content** intents configured in the [dev portal](https://discord.com/developers/applications).
 
-In guilds it requires the `bot` scope and the following permissions: **View Channels**, **Read Message History**, **Moderate Members**, and **Ban Members**. It only works with `Guild Install`.
+In guilds it requires the `bot` scope, `Guild Install`, and the following permissions: **View Channels**, **Read Message History**, **Moderate Members**, and **Ban Members**.
 
 Sample invite link: 
 
