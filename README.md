@@ -1,5 +1,7 @@
 # ChannelBan
 
+**This bot requires Python 3.11+.**
+
 This bot watches a channel and bans users if they post in it (with configurable role exclusions).
 
 This bot requires the **Server Members** and **Message Content** intents configured in the [dev portal](https://discord.com/developers/applications).
