@@ -50,7 +50,7 @@ async def on_message(message: discord.Message):
             return
 
 
-    await message.guild.ban(message.author, reason=BAN_REASON, delete_message_seconds=604800)
+    await message.guild.ban(message.author, delete_message_seconds=604800, reason=BAN_REASON)
 
 
 
