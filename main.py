@@ -49,8 +49,8 @@ async def on_message(message: discord.Message):
         if role.id in IGNORE_ROLE_IDS:
             return
 
-
-    await message.guild.ban(message.author, delete_message_seconds=604800, reason=BAN_REASON)
+    await message.guild.kick(message.author, reason=BAN_REASON)
+    await message.delete()
 
 
 
