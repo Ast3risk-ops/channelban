@@ -1,6 +1,6 @@
 # ChannelBan
 
-**This bot requires Python 3.11 or later.**
+**This bot requires Python 3.10 or later.**
 
 This bot watches a channel and kicks users if they post in it (with configurable role exclusions).
 

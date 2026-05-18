@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ezcord = "*"
+ezcord = "0.7.5"
 python-dotenv = "*"
 py-cord = "*"
 
